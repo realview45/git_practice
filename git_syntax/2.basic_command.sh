@@ -39,5 +39,11 @@ git fetch origin main
 git diff commitID1 commitID2
 git diff branch1 branch2
 
-
-
+# 작업중인사항을 임시저장
+git stash
+# 임시저장한 작업사항을 다시 적용
+git stash pop
+# 저장한 작업목록 조회
+git stash list
+# 저장한목록 전체삭제
+git stash clear
