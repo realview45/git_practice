@@ -39,10 +39,5 @@ git fetch origin main
 git diff commitID1 commitID2
 git diff branch1 branch2
 
-# 가장 최신의 커밋 취소
-git reset head~1
-git reset head^
 
-# 이미 push commit사항을 되돌리는 새로운 commit생성
-git revert 커밋ID
 
